@@ -1,0 +1,39 @@
+\documentclass[12pt,a4paper,UTF8]{ctexart}
+\usepackage{makecell}
+\usepackage{array}
+\newcommand{\PreserveBackslash}[1]{\let\temp=\\#1\let\\=\temp}
+\newcolumntype{C}[1]{>{\PreserveBackslash\centering}p{#1}}
+\newcolumntype{R}[1]{>{\PreserveBackslash\raggedleft}p{#1}}
+\newcolumntype{L}[1]{>{\PreserveBackslash\raggedright}p{#1}}
+\begin{document}
+\centering
+\fontsize{20pt}{24pt}文档历史发放及记录\\
+\quad    
+\begin{table}[h]
+	\begin{center} %表格居中
+		\begin{tabular}{|c|C{5cm}|c|c|c|c|c|}%竖线表示边框竖线，c表示center居中，l-left,r-right 
+		\hline
+		\textbf{ 序号 }&\textbf{     变更（+/-）说明      }&\textbf{   作者   }&\textbf{版本号}&\textbf{  日期  }&\textbf{  批准  }\\ 
+		\hline
+		 & & & & & \\
+		\hline
+		 & & & & & \\
+		\hline
+		 & & & & & \\
+		\hline
+		 & & & & & \\
+		\hline
+		 & & & & & \\
+		\hline
+		 & & & & & \\
+		\hline
+		 & & & & & \\
+		\hline
+		 & & & & & \\
+		\hline
+		\end{tabular}
+	\end{center}
+\end{table}
+\end{document}
+
+\newpage
